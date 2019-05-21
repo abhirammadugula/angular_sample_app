@@ -1,0 +1,19 @@
+<html ng-app="Myapp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="module.js"></script>
+  </head>
+  <body>
+    <h1>
+      {{ 1 < 2 }}
+    </h1>
+    <div ng-controller="MyController">
+            <input type = "text" ng-model = "message"></input>
+      {{ message + " please" }}
+    </div>
+    <div ng-controller="MyController2">
+      {{ Student.FirstName }}
+    </div>
+    <input type = "text" ng-model = "MyController"></input>
+  </body>
+</html>
